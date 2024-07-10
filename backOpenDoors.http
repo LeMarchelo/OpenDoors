@@ -1,0 +1,6 @@
+@backOpenDoors_HostAddress = http://localhost:5070
+
+GET {{backOpenDoors_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
