@@ -1,0 +1,19 @@
+{
+    "name": "OpenDoors",
+    "short_name": "OpenDoors",
+    "start_url": "http://192.168.0.115:5173",
+    "display": "standalone",
+    "scope": "/",
+    "icons": [
+      {
+        "src": "/openDoor.svg",
+        "type": "image/svg+xml",
+        "sizes": "60x60"
+      },
+      {
+        "src": "/openDoor.png",
+        "type": "image/png",
+        "sizes": "60x60"
+      }
+    ]
+  }

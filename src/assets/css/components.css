@@ -1,0 +1,133 @@
+/* ---------------------------------------------------
+    GENERAL STYLE
+----------------------------------------------------- */
+
+html, body {
+    margin:0;
+}
+
+/* ---------------------------------------------------
+    navbarTop
+----------------------------------------------------- */
+
+#navbarTop {
+    background: rgb(59, 59, 59);
+    height: 55px;   
+}
+
+/* ---------------------------------------------------
+button-menu
+----------------------------------------------------- */
+
+#navbarTop .button-menu-wrapper {
+    margin-top: 4px;
+    margin-left: 5px;
+    float: left;
+    color: #eee;
+    width: 3rem !important;    
+    height: 3rem !important;
+    border-radius:  100%;
+    cursor:  pointer;
+    text-align: center;
+}
+
+#navbarTop .button-menu-wrapper:hover {
+    background: rgb(50, 50, 50) !important;
+}
+
+#navbarTop .button-menu {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 1.5rem !important;
+    height: 1.5rem !important;  
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+/* ---------------------------------------------------
+    button-close
+----------------------------------------------------- */
+
+#navbarTop .button-close-wrapper {
+    margin-top: 4px;
+    margin-right: 5px;
+    float: right;
+    color: #eee;
+    width: 3rem !important;    
+    height: 3rem !important;
+    border-radius:  100%;
+    cursor:  pointer;
+    text-align: center;
+}
+
+#navbarTop .button-close-wrapper:hover {
+    background: rgb(50, 50, 50) !important;
+}
+
+#navbarTop .button-close {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 1.5rem !important;
+    height: 1.5rem !important;  
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+/* ---------------------------------------------------
+    navbarBottom
+----------------------------------------------------- */
+
+#navbarBottom {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    color: #eee;
+    align-items: center;
+    text-align: center;
+    background: rgb(59, 59, 59);
+}
+
+/* ---------------------------------------------------
+    btn-block
+----------------------------------------------------- */
+
+.btn-block{
+    display:flex;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+/* ---------------------------------------------------
+    btnAdd
+----------------------------------------------------- */
+
+#btnAdd {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+/* ---------------------------------------------------
+    btnDoor
+----------------------------------------------------- */
+
+#btnDoor {
+    width: 100%;
+    height: 70px;
+}
+
+/* ---------------------------------------------------
+    footer
+----------------------------------------------------- */
+
+#footer { 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: right;
+    align-items: right;
+    text-align: center;
+}
